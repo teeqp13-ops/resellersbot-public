@@ -782,6 +782,27 @@ TRANSLATIONS = {
         "ar": f'{E_ERROR} معرّف قناة غير صالح. يجب أن يكون رقمًا (مثال <code>-1001234567890</code>).',
         "id": f'{E_ERROR} ID channel gak valid. Harus angka (contoh <code>-1001234567890</code>).',
     },
+
+    # ─── Log Channel Messages ────────────────────────────────────────────
+    "log_registration": {
+        "en": "<b>User:</b> @{username}\n<b>ID:</b> <code>{user_id}</code>\n<b>Name:</b> {name}\n<b>UDID:</b> <code>{udid}</code>\n<b>Plan:</b> {plan}\n<b>Price:</b> ${price}",
+        "ru": "<b>Пользователь:</b> @{username}\n<b>ID:</b> <code>{user_id}</code>\n<b>Имя:</b> {name}\n<b>UDID:</b> <code>{udid}</code>\n<b>План:</b> {plan}\n<b>Цена:</b> ${price}",
+        "ar": "<b>المستخدم:</b> @{username}\n<b>المعرّف:</b> <code>{user_id}</code>\n<b>الاسم:</b> {name}\n<b>UDID:</b> <code>{udid}</code>\n<b>الباقة:</b> {plan}\n<b>السعر:</b> ${price}",
+        "id": "<b>User:</b> @{username}\n<b>ID:</b> <code>{user_id}</code>\n<b>Nama:</b> {name}\n<b>UDID:</b> <code>{udid}</code>\n<b>Plan:</b> {plan}\n<b>Harga:</b> ${price}",
+    },
+    "log_key_registration": {
+        "en": "<b>Key:</b> <code>{key}</code>\n<b>User:</b> @{username}\n<b>ID:</b> <code>{user_id}</code>\n<b>Name:</b> {name}\n<b>UDID:</b> <code>{udid}</code>\n<b>Plan:</b> {plan}\n<b>Price:</b> ${price}",
+        "ru": "<b>Ключ:</b> <code>{key}</code>\n<b>Пользователь:</b> @{username}\n<b>ID:</b> <code>{user_id}</code>\n<b>Имя:</b> {name}\n<b>UDID:</b> <code>{udid}</code>\n<b>План:</b> {plan}\n<b>Цена:</b> ${price}",
+        "ar": "<b>المفتاح:</b> <code>{key}</code>\n<b>المستخدم:</b> @{username}\n<b>المعرّف:</b> <code>{user_id}</code>\n<b>الاسم:</b> {name}\n<b>UDID:</b> <code>{udid}</code>\n<b>الباقة:</b> {plan}\n<b>السعر:</b> ${price}",
+        "id": "<b>Key:</b> <code>{key}</code>\n<b>User:</b> @{username}\n<b>ID:</b> <code>{user_id}</code>\n<b>Nama:</b> {name}\n<b>UDID:</b> <code>{udid}</code>\n<b>Plan:</b> {plan}\n<b>Harga:</b> ${price}",
+    },
+    "log_key_created": {
+        "en": "<b>User:</b> @{username}\n<b>ID:</b> <code>{user_id}</code>\n<b>Name:</b> {name}\n<b>Plan:</b> {plan}\n<b>Price:</b> ${price}\n<b>Count:</b> {count}\n\n{keys}",
+        "ru": "<b>Пользователь:</b> @{username}\n<b>ID:</b> <code>{user_id}</code>\n<b>Имя:</b> {name}\n<b>План:</b> {plan}\n<b>Цена:</b> ${price}\n<b>Кол-во:</b> {count}\n\n{keys}",
+        "ar": "<b>المستخدم:</b> @{username}\n<b>المعرّف:</b> <code>{user_id}</code>\n<b>الاسم:</b> {name}\n<b>الباقة:</b> {plan}\n<b>السعر:</b> ${price}\n<b>العدد:</b> {count}\n\n{keys}",
+        "id": "<b>User:</b> @{username}\n<b>ID:</b> <code>{user_id}</code>\n<b>Nama:</b> {name}\n<b>Plan:</b> {plan}\n<b>Harga:</b> ${price}\n<b>Jumlah:</b> {count}\n\n{keys}",
+    },
+
     "settings_desc_language": {
         "en": f'━ {E_LANG} Change bot language',
         "ru": f'━ {E_LANG} Изменить язык бота',
