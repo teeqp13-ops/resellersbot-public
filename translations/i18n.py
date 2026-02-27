@@ -692,6 +692,12 @@ TRANSLATIONS = {
         "ar": f'    ┗ {_e("5951584964305755220", "📋")} قناة السجل',
         "id": f'    ┗ {_e("5951584964305755220", "📋")} Log Channel',
     },
+    "settings_desc_panel": {
+        "en": '━ <b>Panel:</b> Resellers, Plans & Pricing',
+        "ru": '━ <b>Панель:</b> Реселлеры, планы и цены',
+        "ar": '━ <b>اللوحة:</b> الموزعون والخطط والأسعار',
+        "id": '━ <b>Panel:</b> Reseller, Paket & Harga',
+    },
     "btn_apps": {
         "en": "Apps",
         "ru": "Приложения",
