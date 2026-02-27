@@ -669,10 +669,16 @@ TRANSLATIONS = {
         "id": f'    ┣ {_e("5785267655757796105", "🎨")} Tema Tombol',
     },
     "settings_desc_custom_language": {
-        "en": f'    ┗ {E_LANG} Language',
-        "ru": f'    ┗ {E_LANG} Язык',
-        "ar": f'    ┗ {E_LANG} اللغة',
-        "id": f'    ┗ {E_LANG} Bahasa',
+        "en": f'    ┣ {E_LANG} Language',
+        "ru": f'    ┣ {E_LANG} Язык',
+        "ar": f'    ┣ {E_LANG} اللغة',
+        "id": f'    ┣ {E_LANG} Bahasa',
+    },
+    "settings_desc_custom_log": {
+        "en": f'    ┗ {_e("5951584964305755220", "📋")} Log Channel',
+        "ru": f'    ┗ {_e("5951584964305755220", "📋")} Канал логов',
+        "ar": f'    ┗ {_e("5951584964305755220", "📋")} قناة السجل',
+        "id": f'    ┗ {_e("5951584964305755220", "📋")} Log Channel',
     },
     "btn_apps": {
         "en": "Apps",
@@ -745,6 +751,36 @@ TRANSLATIONS = {
         "ru": f'{E_ERROR} Неверная ссылка. Должна начинаться с http:// или https://',
         "ar": f'{E_ERROR} https:// أو http:// رابط غير صالح. يجب أن يبدأ بـ',
         "id": f'{E_ERROR} URL tidak valid. Harus dimulai dengan http:// atau https://',
+    },
+    "btn_log": {
+        "en": "Log",
+        "ru": "Лог",
+        "ar": "السجل",
+        "id": "Log",
+    },
+    "set_log_channel_title": {
+        "en": f'{_e("5951584964305755220", "📋")} <b>Set Log Channel</b>',
+        "ru": f'{_e("5951584964305755220", "📋")} <b>Канал логов</b>',
+        "ar": f'{_e("5951584964305755220", "📋")} <b>قناة السجل</b>',
+        "id": f'{_e("5951584964305755220", "📋")} <b>Set Log Channel</b>',
+    },
+    "set_log_channel_prompt": {
+        "en": "Send the channel ID (e.g. <code>-1001234567890</code>).\nMake sure the bot is admin in that channel.",
+        "ru": "Отправьте ID канала (напр. <code>-1001234567890</code>).\nУбедитесь, что бот — администратор канала.",
+        "ar": "أرسل معرّف القناة (مثال <code>-1001234567890</code>).\nتأكد أن البوت مسؤول في القناة.",
+        "id": "Kirim ID channel (contoh <code>-1001234567890</code>).\nPastikan bot jadi admin di channel itu.",
+    },
+    "set_log_channel_saved": {
+        "en": f'{E_CHECK} Log channel saved!',
+        "ru": f'{E_CHECK} Канал логов сохранён!',
+        "ar": f'{E_CHECK} !تم حفظ قناة السجل',
+        "id": f'{E_CHECK} Log channel tersimpan!',
+    },
+    "set_log_channel_invalid": {
+        "en": f'{E_ERROR} Invalid channel ID. Must be a number (e.g. <code>-1001234567890</code>).',
+        "ru": f'{E_ERROR} Неверный ID канала. Должен быть числом (напр. <code>-1001234567890</code>).',
+        "ar": f'{E_ERROR} معرّف قناة غير صالح. يجب أن يكون رقمًا (مثال <code>-1001234567890</code>).',
+        "id": f'{E_ERROR} ID channel gak valid. Harus angka (contoh <code>-1001234567890</code>).',
     },
     "settings_desc_language": {
         "en": f'━ {E_LANG} Change bot language',
