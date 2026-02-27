@@ -699,10 +699,10 @@ TRANSLATIONS = {
         "id": f'    ┗ {_e("5316571734604790521", "⚡")} Force Register',
     },
     "settings_desc_panel": {
-        "en": '━ <b>Panel:</b> Resellers, Plans & Pricing',
-        "ru": '━ <b>Панель:</b> Реселлеры, планы и цены',
-        "ar": '━ <b>اللوحة:</b> الموزعون والخطط والأسعار',
-        "id": '━ <b>Panel:</b> Reseller, Paket & Harga',
+        "en": f'━ {_e("5875431869842985304", "📊")} <b>Panel:</b> Resellers, Plans & Pricing',
+        "ru": f'━ {_e("5875431869842985304", "📊")} <b>Панель:</b> Реселлеры, планы и цены',
+        "ar": f'━ {_e("5875431869842985304", "📊")} <b>اللوحة:</b> الموزعون والخطط والأسعار',
+        "id": f'━ {_e("5875431869842985304", "📊")} <b>Panel:</b> Reseller, Paket & Harga',
     },
     "btn_apps": {
         "en": "Apps",
