@@ -142,6 +142,12 @@ TRANSLATIONS = {
         "ar": f'{E_ERROR} مفتاح API غير مُعدّ. تواصل مع المسؤول.',
         "id": f'{E_ERROR} API key belum diset. Hubungi admin.',
     },
+    "insufficient_balance": {
+        "en": f'{E_ERROR} Insufficient balance for this operation.',
+        "ru": f'{E_ERROR} Недостаточный баланс для этой операции.',
+        "ar": f'{E_ERROR} رصيد غير كافٍ لهذه العملية.',
+        "id": f'{E_ERROR} Saldo tidak cukup untuk operasi ini.',
+    },
 
     # ─── UDID / Certificate ───────────────────────────────────────────────
     "get_cert_udid_prompt": {
