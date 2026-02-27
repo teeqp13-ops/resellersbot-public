@@ -298,6 +298,12 @@ TRANSLATIONS = {
         "ar": "تعيين مفتاح API",
         "id": "Set API Key",
     },
+    "btn_panel": {
+        "en": "Panel",
+        "ru": "Панель",
+        "ar": "لوحة التحكم",
+        "id": "Panel",
+    },
     "btn_create_key": {
         "en": "Create Key",
         "ru": "Создать Ключ",
@@ -693,10 +699,10 @@ TRANSLATIONS = {
         "id": "Kustomisasi",
     },
     "customization_title": {
-        "en": f'{_e("5785267655757796105", "🎨")} <b>Customization</b>\n\nConfigure your bot appearance:\n\n━ {E_PACK} Choose which apps to sign\n━ {_e("5931629923478278721", "🖼")} Set file thumbnails\n━ {_e("5906995262378741881", "📋")} Set instructions link\n━ {_e("5839200986022812209", "🎨")} Install button color\n━ {E_LANG} Change bot language',
-        "ru": f'{_e("5785267655757796105", "🎨")} <b>Настройка</b>\n\nНастройте внешний вид бота:\n\n━ {E_PACK} Выбор приложений для подписи\n━ {_e("5931629923478278721", "🖼")} Миниатюры файлов\n━ {_e("5906995262378741881", "📋")} Ссылка на инструкцию\n━ {_e("5839200986022812209", "🎨")} Цвет кнопки установки\n━ {E_LANG} Изменить язык бота',
-        "ar": f'{_e("5785267655757796105", "🎨")} <b>التخصيص</b>\n\nتخصيص مظهر البوت:\n\n━ {E_PACK} اختيار التطبيقات للتوقيع\n━ {_e("5931629923478278721", "🖼")} صور مصغرة للملفات\n━ {_e("5906995262378741881", "📋")} رابط التعليمات\n━ {_e("5839200986022812209", "🎨")} لون زر التثبيت\n━ {E_LANG} تغيير لغة البوت',
-        "id": f'{_e("5785267655757796105", "🎨")} <b>Kustomisasi</b>\n\nAtur tampilan bot:\n\n━ {E_PACK} Pilih apps untuk di-sign\n━ {_e("5931629923478278721", "🖼")} Thumbnail file\n━ {_e("5906995262378741881", "📋")} Link instruksi\n━ {_e("5839200986022812209", "🎨")} Warna tombol install\n━ {E_LANG} Ganti bahasa bot',
+        "en": f'{_e("5785267655757796105", "🎨")} <b>Customization</b>\n\nConfigure your bot appearance:\n\n━ {E_PACK} Choose which apps to sign\n━ {_e("5931629923478278721", "🖼")} Set file thumbnails\n━ {_e("5906995262378741881", "📋")} Set instructions link\n━ {_e("5839200986022812209", "🎨")} Install button color\n━ {E_LANG} Change bot language\n━ {_e("5951584964305755220", "📋")} Set log channel',
+        "ru": f'{_e("5785267655757796105", "🎨")} <b>Настройка</b>\n\nНастройте внешний вид бота:\n\n━ {E_PACK} Выбор приложений для подписи\n━ {_e("5931629923478278721", "🖼")} Миниатюры файлов\n━ {_e("5906995262378741881", "📋")} Ссылка на инструкцию\n━ {_e("5839200986022812209", "🎨")} Цвет кнопки установки\n━ {E_LANG} Изменить язык бота\n━ {_e("5951584964305755220", "📋")} Канал логов',
+        "ar": f'{_e("5785267655757796105", "🎨")} <b>التخصيص</b>\n\nتخصيص مظهر البوت:\n\n━ {E_PACK} اختيار التطبيقات للتوقيع\n━ {_e("5931629923478278721", "🖼")} صور مصغرة للملفات\n━ {_e("5906995262378741881", "📋")} رابط التعليمات\n━ {_e("5839200986022812209", "🎨")} لون زر التثبيت\n━ {E_LANG} تغيير لغة البوت\n━ {_e("5951584964305755220", "📋")} قناة السجل',
+        "id": f'{_e("5785267655757796105", "🎨")} <b>Kustomisasi</b>\n\nAtur tampilan bot:\n\n━ {E_PACK} Pilih apps untuk di-sign\n━ {_e("5931629923478278721", "🖼")} Thumbnail file\n━ {_e("5906995262378741881", "📋")} Link instruksi\n━ {_e("5839200986022812209", "🎨")} Warna tombol install\n━ {E_LANG} Ganti bahasa bot\n━ {_e("5951584964305755220", "📋")} Log channel',
     },
     "btn_button_theme": {
         "en": "Button",
