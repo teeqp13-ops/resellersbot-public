@@ -441,10 +441,10 @@ TRANSLATIONS = {
 
     # ─── Plans ────────────────────────────────────────────────────────────
     "plans_title": {
-        "en": f'{E_NEW} <b>Available Plans</b>\n\nSelect a plan:',
-        "ru": f'{E_NEW} <b>Доступные планы</b>\n\nВыберите план:',
-        "ar": f'{E_NEW} <b>الباقات المتاحة</b>\n\nاختر باقة:',
-        "id": f'{E_NEW} <b>Plan Tersedia</b>\n\nPilih plan:',
+        "en": f'{E_NEW} <b>Available Plans</b>\n\n- All certificates are registered instantly.\n- Plans differ only by warranty period.\n\n<b>iOS</b> — Certificates for iPhone\n<b>iPad</b> — Certificates for iPad',
+        "ru": f'{E_NEW} <b>Доступные планы</b>\n\n- Все сертификаты регистрируются моментально.\n- Тарифы отличаются только гарантийным периодом.\n\n<b>iOS</b> — Сертификаты для iPhone\n<b>iPad</b> — Сертификаты для iPad',
+        "ar": f'{E_NEW} <b>الباقات المتاحة</b>\n\n- يتم تسجيل جميع الشهادات فورياً.\n- تختلف الباقات فقط بفترة الضمان.\n\n<b>iOS</b> — شهادات لـ iPhone\n<b>iPad</b> — شهادات لـ iPad',
+        "id": f'{E_NEW} <b>Plan Tersedia</b>\n\n- Semua sertifikat didaftarkan secara instan.\n- Plan hanya berbeda berdasarkan masa garansi.\n\n<b>iOS</b> — Sertifikat untuk iPhone\n<b>iPad</b> — Sertifikat untuk iPad',
     },
     "plans_error": {
         "en": f'{E_ERROR} <b>Error</b>\n\nFailed to load plans. Please try again later.',
@@ -1368,3 +1368,77 @@ def translate_api_error(error: str, lang: str) -> str:
 
     return error
 
+
+# ── Plan name display mapping ───────────────────────────────────────────
+# Maps raw API plan_name → friendly display name per language.
+# If a plan is not listed here it is shown as-is from the API.
+PLAN_NAME_MAP: dict[str, dict[str, str]] = {
+    "iOS 0M": {
+        "en": "iOS 0M Warranty",
+        "ru": "iOS 0М Гарантия",
+        "ar": "iOS 0M ضمان",
+        "id": "iOS 0M Garansi",
+    },
+    "iOS 1M": {
+        "en": "iOS 1M Warranty",
+        "ru": "iOS 1М Гарантия",
+        "ar": "iOS 1M ضمان",
+        "id": "iOS 1M Garansi",
+    },
+    "iOS 3M": {
+        "en": "iOS 3M Warranty",
+        "ru": "iOS 3М Гарантия",
+        "ar": "iOS 3M ضمان",
+        "id": "iOS 3M Garansi",
+    },
+    "iOS 6M": {
+        "en": "iOS 6M Warranty",
+        "ru": "iOS 6М Гарантия",
+        "ar": "iOS 6M ضمان",
+        "id": "iOS 6M Garansi",
+    },
+    "iOS 10M": {
+        "en": "iOS 10M Warranty",
+        "ru": "iOS 10М Гарантия",
+        "ar": "iOS 10M ضمان",
+        "id": "iOS 10M Garansi",
+    },
+    "iOS Infinity": {
+        "en": "iOS ∞ Lifetime",
+        "ru": "iOS ∞ Навсегда",
+        "ar": "iOS ∞ مدى الحياة",
+        "id": "iOS ∞ Seumur Hidup",
+    },
+    "iPad 10M": {
+        "en": "iPad 10M Warranty",
+        "ru": "iPad 10М Гарантия",
+        "ar": "iPad 10M ضمان",
+        "id": "iPad 10M Garansi",
+    },
+    "iPad 0M": {
+        "en": "iPad 0M Warranty",
+        "ru": "iPad 0М Гарантия",
+        "ar": "iPad 0M ضمان",
+        "id": "iPad 0M Garansi",
+    },
+    "Dev|Dist 0M": {
+        "en": "Developer 0M Warranty",
+        "ru": "Разработчик 0М Гарантия",
+        "ar": "مطور 0M ضمان",
+        "id": "Developer 0M Garansi",
+    },
+    "Dev|Dis 1M": {
+        "en": "Developer 1M Warranty",
+        "ru": "Разработчик 1М Гарантия",
+        "ar": "مطور 1M ضمان",
+        "id": "Developer 1M Garansi",
+    },
+}
+
+
+def format_plan_name(raw_name: str, lang: str = "en") -> str:
+    """Return a friendly display name for a plan. Falls back to raw name."""
+    entry = PLAN_NAME_MAP.get(raw_name)
+    if entry:
+        return entry.get(lang, entry.get("en", raw_name))
+    return raw_name
