@@ -440,11 +440,29 @@ TRANSLATIONS = {
     },
 
     # ─── Plans ────────────────────────────────────────────────────────────
+    "device_select": {
+        "en": f'{E_NEW} <b>Select Device</b>\n\n- All certificates are registered instantly.\n- Plans differ only by warranty period.\n\nChoose your device type:',
+        "ru": f'{E_NEW} <b>Выберите устройство</b>\n\n- Все сертификаты регистрируются моментально.\n- Тарифы отличаются только гарантийным периодом.\n\nВыберите тип устройства:',
+        "ar": f'{E_NEW} <b>اختر الجهاز</b>\n\n- يتم تسجيل جميع الشهادات فورياً.\n- تختلف الباقات فقط بفترة الضمان.\n\nاختر نوع الجهاز:',
+        "id": f'{E_NEW} <b>Pilih Perangkat</b>\n\n- Semua sertifikat didaftarkan secara instan.\n- Plan hanya berbeda berdasarkan masa garansi.\n\nPilih jenis perangkat:',
+    },
+    "btn_iphone": {
+        "en": "iPhone",
+        "ru": "iPhone",
+        "ar": "iPhone",
+        "id": "iPhone",
+    },
+    "btn_ipad": {
+        "en": "iPad",
+        "ru": "iPad",
+        "ar": "iPad",
+        "id": "iPad",
+    },
     "plans_title": {
-        "en": f'{E_NEW} <b>Available Plans</b>\n\n- All certificates are registered instantly.\n- Plans differ only by warranty period.\n\n<b>iOS</b> — Certificates for iPhone\n<b>iPad</b> — Certificates for iPad',
-        "ru": f'{E_NEW} <b>Доступные планы</b>\n\n- Все сертификаты регистрируются моментально.\n- Тарифы отличаются только гарантийным периодом.\n\n<b>iOS</b> — Сертификаты для iPhone\n<b>iPad</b> — Сертификаты для iPad',
-        "ar": f'{E_NEW} <b>الباقات المتاحة</b>\n\n- يتم تسجيل جميع الشهادات فورياً.\n- تختلف الباقات فقط بفترة الضمان.\n\nشهادات لـ iPhone — <b>iOS</b>\nشهادات لـ iPad — <b>iPad</b>',
-        "id": f'{E_NEW} <b>Plan Tersedia</b>\n\n- Semua sertifikat didaftarkan secara instan.\n- Plan hanya berbeda berdasarkan masa garansi.\n\n<b>iOS</b> — Sertifikat untuk iPhone\n<b>iPad</b> — Sertifikat untuk iPad',
+        "en": f'{E_NEW} <b>Available Plans</b>\n\nSelect a plan:',
+        "ru": f'{E_NEW} <b>Доступные планы</b>\n\nВыберите план:',
+        "ar": f'{E_NEW} <b>الباقات المتاحة</b>\n\nاختر باقة:',
+        "id": f'{E_NEW} <b>Plan Tersedia</b>\n\nPilih plan:',
     },
     "plans_error": {
         "en": f'{E_ERROR} <b>Error</b>\n\nFailed to load plans. Please try again later.',
