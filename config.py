@@ -41,7 +41,7 @@ def get_plan_name(plan_id: str) -> str:
 
 def is_admin(user_id: int) -> bool:
     """Check if user is admin"""
-    return user_id == 7084874895
+    return user_id == 6175620662
 
 PLANS = {
     "super0": "plan_super0",
